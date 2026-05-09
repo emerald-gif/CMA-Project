@@ -20,15 +20,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 //   1. Their specific band list (based on score)
 //   2. The general list (everyone, regardless of band)
 // ================================================================
-const EO_API_KEY = 'YOUR_EMAILOCTOPUS_API_KEY_HERE';  // ← SAME KEY FOR ALL LISTS
+const EO_API_KEY = 'eo_b396d4244a43fcaf83f938649f0b505e51dd4c7aa33f75d797b7f17f2e4f8a8a';  // ← SAME KEY FOR ALL LISTS
 
-const EO_LIST_GENERAL = 'YOUR_GENERAL_LIST_ID_HERE';  // ← Everyone lands here
+const EO_LIST_GENERAL = '2374f062-4875-11f1-bf3a-0768bb586825';  // ← Everyone lands here
 
 const EO_BAND_LISTS = {
-  f: 'YOUR_FOUNDATION_LIST_ID_HERE',   // ← Score 0–40  (Foundation Builder)
-  g: 'YOUR_GROWTH_LIST_ID_HERE',       // ← Score 41–65 (Growth Accelerator)
-  m: 'YOUR_MOMENTUM_LIST_ID_HERE',     // ← Score 66–85 (Momentum Builder)
-  l: 'YOUR_LEADER_LIST_ID_HERE',       // ← Score 86–100 (Economy Leader)
+  f: '2c6edae8-4b18-11f1-b9d2-9d82ddb5816d',   // ← Score 0–40  (Foundation Builder)
+  g: '97ef2f5c-4b18-11f1-a122-af3dc4a29929',       // ← Score 41–65 (Growth Accelerator)
+  m: 'a6a117c2-4b18-11f1-b715-9d82ddb5816d',     // ← Score 66–85 (Momentum Builder)
+  l: 'af54e63c-4b18-11f1-90ad-a176f12a4b7e',       // ← Score 86–100 (Economy Leader)
 };
 
 
