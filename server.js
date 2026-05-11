@@ -32,7 +32,7 @@ const EO_BAND_LISTS   = {
 // ================================================================
 // 🔑  BREVO CREDENTIALS
 // ================================================================
-const BREVO_API_KEY   = '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';
+const BREVO_API_KEY   = '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';
 const BREVO_TEMPLATE  = 2;                                   // Template #2
 const BREVO_SENDER    = {
   name:  'Creative Money Africa',
