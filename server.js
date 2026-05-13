@@ -28,7 +28,7 @@ const EO_BAND_LISTS   = {
   l: process.env.EO_LIST_L,
 };
 const BREVO_API_KEY  = process.env.BREVO_API_KEY;
-const BREVO_TEMPLATE = 2;
+const BREVO_TEMPLATE = 3;
 
 
 // ================================================================
