@@ -326,7 +326,7 @@ function sendWelcomeEmail({ name, email, score, bandName }) {
     const body = JSON.stringify({
       templateId: BREVO_TEMPLATE,
       to:         [{ email, name }],
-      sender:     { name: 'Creative Money Africa', email: process.env.BREVO_SENDER_EMAIL || 'noreply@brevosend.com' },
+      sender:     { name: 'Creative Money Africa', email: process.env.BREVO_SENDER_EMAIL || 'growth@getcreativemoney.com' },
       params: {
         name,
         score,
